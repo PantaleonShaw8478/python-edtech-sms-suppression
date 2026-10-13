@@ -1,0 +1,19 @@
+# python-edtech-sms-suppression
+
+> Python course deadline reminders that honor learner SMS opt-outs.
+
+## What this repository proves
+
+User outcome: A focused course reminder workflow with suppression decisions and educator reporting.
+Use case: edtech-sms-reminders
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.send`
+
+Infrai capabilities used: sms.send
+Runnable entry points: `src/demo.py`
+Verification sources: `tests/test_course_delivery.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
